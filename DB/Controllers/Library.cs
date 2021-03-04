@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace DB.Controllers
+namespace DB.Controller
 {
     [ApiController]
     [Route("[controller]")]
@@ -37,3 +37,12 @@ namespace DB.Controllers
         }
     }
 }
+
+// Revature Intellectual Property and Resource:
+//  Batch -> 2102-feb08-net
+//
+//  Project1 - Feb 26, 2021 Received Original Specifications
+//
+//  Project Lead - Revature Corporate Trainor Nick Escalona
+//  Project Deliverable - Developer & Author -
+//                        Revature Engineering Associate James Weight

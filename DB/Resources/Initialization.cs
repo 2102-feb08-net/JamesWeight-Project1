@@ -1,3 +1,5 @@
+/*
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,3 +59,14 @@ namespace DB.Initialization
         }
     }
 }
+
+// Revature Intellectual Property and Resource:
+//  Batch -> 2102-feb08-net
+//
+//  Project1 - Feb 26, 2021 Received Original Specifications
+//
+//  Project Lead - Revature Corporate Trainor Nick Escalona
+//  Project Deliverable - Developer & Author -
+//                        Revature Engineering Associate James Weight
+
+*/

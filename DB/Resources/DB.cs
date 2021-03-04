@@ -11,12 +11,12 @@ namespace DB.Api
 {
     public class Start
     {
-        public static void Support(string[] args)
+        public void Support(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
+        public IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
@@ -24,3 +24,12 @@ namespace DB.Api
                 });
     }
 }
+
+// Revature Intellectual Property and Resource:
+//  Batch -> 2102-feb08-net
+//
+//  Project1 - Feb 26, 2021 Received Original Specifications
+//
+//  Project Lead - Revature Corporate Trainor Nick Escalona
+//  Project Deliverable - Developer & Author -
+//                        Revature Engineering Associate James Weight
