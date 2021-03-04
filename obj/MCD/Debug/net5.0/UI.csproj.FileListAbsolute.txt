@@ -1,7 +1,0 @@
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.csprojAssemblyReference.cache
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.AssemblyInfoInputs.cache
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.AssemblyInfo.cs
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.csproj.CoreCompileInputs.cache
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.MvcApplicationPartsAssemblyInfo.cs
-C:\JamesWeight-Project1\obj\MCD\Debug\net5.0\UI.MvcApplicationPartsAssemblyInfo.cache
