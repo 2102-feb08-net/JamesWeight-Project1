@@ -4,7 +4,7 @@
            <details>Feb 8 2021 Arlington .NET / Nick Escalona</details>
 
          <section>[Functionality]</section>
-           <details>  1) place orders to store locations for customers<details>
+           <details>  1) place orders to store locations for customers</details>
            <details>  2) add a new customer</details>
            <details>  3) search customers by name</details>
            <details>  4) display details of an order</details>
@@ -16,65 +16,72 @@
            <details> 10) persistent data; no prices, customers, order history, etc. hardcoded in C#</details>
            <details> 11) logging of exceptions, EF SQL commands, and other events [newly required]</details>
 
-          <article>(optional: order history can be sorted by earliest, latest, cheapest, most expensive)
-                   (optional: get a suggested order for a customer based on his order history)
-                   (optional: display some statistics based on order history)
-                   (optional: asynchronous network & file I/O)</article>
+         <article>(optional: order history can be sorted by earliest, latest, cheapest, most expensive)
+                  (optional: get a suggested order for a customer based on his order history)
+                  (optional: display some statistics based on order history)
+                  (optional: asynchronous network & file I/O)</article>
 
-[Design]
- 1) use EF Core (either database-first approach with a SQL script or code-first approach with migrations) [newly changed]
- 2) use an Azure SQL DB in third normal form
- 3) don't use public fields
- 4) define and use at least one interface
+        <section>[Design]</section>
+          <details>   1) use EF Core (either database-first approach with a SQL script
+                         or code-first approach with migrations) [newly changed]</details>
+          <details>   2) use an Azure SQL DB in third normal form</details>
+          <details>   3) don't use public fields</details>
+          <details>   4) define and use at least one interface</details>
 
-[Core / Domain / Business Logic]
- 1) class library
- 2) contains all business logic
- 3) contains domain classes (customer, order, store, product, etc.)
- 4) documentation with <summary> XML comments on all public types and members (optional: <params> and <return>
- 5) customer has first name, last name, etc.
+        <section>[Core / Domain / Business Logic]</section>
+          <details>  1) class library</details>
+          <details>  2) contains all business logic</details>
+          <details>  3) contains domain classes (customer, order, store, product, etc.)</details>
+          <details>  4) documentation with <summary> XML comments
+                        on all public types and members (optional: <params> and <return>)</details>
+          <details>  5) customer has first name, last name, etc.</details>
 
-(recommended: has no dependency on UI, data access, or any input/output considerations)
-(optional: has a default store location to order from)
+        <article>(recommended: has no dependency on UI, data access, or any input/output considerations)
+                 (optional: has a default store location to order from)</article>
 
-[Order]
- 1) has a store location
- 2) has a customer
- 3) has an order time (when the order was placed)
- 4) can contain multiple kinds of product in the same order
- 5) rejects orders with unreasonably high product quantities
- 6) location has an inventory
- 7) inventory decreases when orders are accepted
- 8) rejects orders that cannot be fulfilled with remaining inventory
+        <section>[Order]</section>
+          <details> 1) has a store location</details>
+          <details> 2) has a customer</details>
+          <details> 3) has an order time (when the order was placed)</details>
+          <details> 4) can contain multiple kinds of product in the same order</details>
+          <details> 5) rejects orders with unreasonably high product quantities</details>
+          <details> 6) location has an inventory</details>
+          <details> 7) inventory decreases when orders are accepted</details>
+          <details> 8) rejects orders that cannot be fulfilled with remaining inventory</details>
 
-(optional: some additional business rules, like special deals)
-(optional: for at least one product, more than one inventory item decrements when ordering that product)
+        <article>(optional: some additional business rules, like special deals)
+                 (optional: for at least one product, more than one inventory item decrements
+                            when ordering that product)</article>
 
-[Product (etc.)];
 
-[Web Api (new)]
- 2) ASP.NET Core web API
- 3) serve static HTML, CSS, JS, image, etc. files
- 4) communicate with the server and manage the page via JS
- 5) receive and respond to AJAX requests
- 6) use dependency injection with controllers, repositories, the context, and other services
- 7) has only HTTP-related code
- 8) data access
- 9) class library
-10) separate project for data access code using EF Core
-11) contains data access logic but no business logic
-12) use repository pattern for separation of concerns
+        <section>[Product (etc.)];</section>
 
-[Test]
- 1) at least 10 test methods
- 2) focus on unit testing business logic
- 3) data access tests (if present) should not impact the app's actual database [new]
+        <section>[Web Api (new)]</section>
+          <details>  1) ASP.NET Core web API</details>
+          <details>  2) serve static HTML, CSS, JS, image, etc. files</details>
+          <details>  3) communicate with the server and manage the page via JS</details>
+          <details>  4) receive and respond to AJAX requests</details>
+          <details>  5) use dependency injection with controllers, repositories,
+                        the context, and other services</details>
+          <details>  6) has only HTTP-related code</details>
+          <details>  7) data access</details>
+          <details>  8) class library</details>
+          <details>  9) separate project for data access code using EF Core</details>
+          <details> 10) contains data access logic but no business logic</details>
+          <details> 11) use repository pattern for separation of concerns</details>
+
+        <section>[Test]</section>
+          <details>  1) at least 10 test methods</details>
+          <details>  2) focus on unit testing business logic</details>
+          <details>  3) data access tests (if present) should not impact
+                        the app's actual database [new]</details>
 
 ===========
 
-To Team: Was there any other additional requirements inferred by Nick other than
+        <article>To Team: Was there any other additional requirements inferred by Nick other than
 
-A) Must Be Responsive in UA (Browser)
-B) Adaptible to Browser Platforms (Desktop, Tablet, SmartPhones)
-C) On Azure Cloud as Accessible to the Public in Operational Tasks for a Business or as a Confirmation of Database Activity
+                 A) Must Be Responsive in UA (Browser)
+                 B) Adaptible to Browser Platforms (Desktop, Tablet, SmartPhones)
+                 C) On Azure Cloud as Accessible to the Public in Operational Tasks for a Business
+                    or as a Confirmation of Database Activity</article>
 
