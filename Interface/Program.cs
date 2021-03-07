@@ -11,7 +11,7 @@ namespace Interface
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Start(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
