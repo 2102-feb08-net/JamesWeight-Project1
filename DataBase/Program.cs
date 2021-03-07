@@ -4,7 +4,7 @@ namespace DataBase
 {
     class Program
     {
-        static void Start(string[] args)
+        static void StartDB(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
