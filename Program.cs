@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Interface
+namespace Application
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Interface.");
+            Console.WriteLine("Hello World!");
         }
     }
 }
