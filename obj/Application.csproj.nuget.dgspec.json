@@ -44,10 +44,6 @@
               "target": "Package",
               "version": "[5.0.3, )"
             },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.2, )"
-            },
             "microsoft.aspnetcore": {
               "target": "Package",
               "version": "[2.2.0, )"
