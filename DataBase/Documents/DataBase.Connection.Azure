@@ -1,0 +1,2 @@
+Server=tcp:chinookjwserver.database.windows.net,1433;Initial Catalog=chinookjw;Persist Security Info=False;User ID=jw;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+ 
