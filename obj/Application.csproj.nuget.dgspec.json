@@ -48,6 +48,18 @@
               "target": "Package",
               "version": "[4.8.2, )"
             },
+            "microsoft.aspnetcore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.aspnetcore.http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "microsoft.extensions.logging.azureappservices": {
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21103.6, )"
+            },
             "nlog": {
               "target": "Package",
               "version": "[4.7.8, )"
