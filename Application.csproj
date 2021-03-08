@@ -22,9 +22,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
 
-    <MSBuild Projects = ".\DataBase\DataBase.csproj" Targets = "Build"/>
-    <MSBuild Projects = ".\Interface\Interface.csproj" Targets = "Build"/>
-
     <ProjectReference Include = ".\DataBase\DataBase.csproj"/>
     <ProjectReference Include = ".\Interface\Interface.csproj"/>
   </ItemGroup>
