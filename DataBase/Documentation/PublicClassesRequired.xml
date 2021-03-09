@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary>
+  <header>Market Locations Inventory Management Application (MLiMa) {2021} (February 27)</header>
+
+    <article><section>Required by C# to Compile because of Interface Enhancement</section>
+
+        <details>public void InterfaceBusinessLogic(bool Display){ // Console.WriteLine("Customers."); // SI - TDD }</details>
+        <details>public void InterfaceBusinessLogic(bool Display){ // Console.WriteLine("Locations."); // SI - TDD }</details>
+        <details>public void InterfaceBusinessLogic(bool Display){ // Console.WriteLine("Products."); // SI - TDD }</details>
+        <details>public void InterfaceBusinessLogic(bool Display){ // Console.WriteLine("Orders."); // SI - TDD }</details>
+
+    </article>
+
+</summary>

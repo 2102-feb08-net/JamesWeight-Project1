@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj": {}
+    "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj": {}
   },
   "projects": {
-    "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj": {
+    "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj",
+        "projectPath": "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj",
         "packagesPath": "C:\\Users\\jwi20\\.nuget\\packages\\",
-        "outputPath": "C:\\JamesWeight-project1\\DataBase\\obj\\",
+        "outputPath": "C:\\JamesWeight-Project1\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jwi20\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             },
             "microsoft.aspnetcore": {
               "target": "Package",

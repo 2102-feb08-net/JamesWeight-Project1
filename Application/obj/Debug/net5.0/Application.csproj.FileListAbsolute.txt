@@ -74,3 +74,9 @@ C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swag
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Browser.dll
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Browser.pdb
+C:\JamesWeight-Project1\Application\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\JamesWeight-Project1\Application\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\JamesWeight-Project1\Application\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\JamesWeight-Project1\Application\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\JamesWeight-Project1\Application\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\JamesWeight-Project1\Application\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

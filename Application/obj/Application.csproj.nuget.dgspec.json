@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JamesWeight-project1\\Application\\Application.csproj": {}
+    "C:\\JamesWeight-Project1\\application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\JamesWeight-project1\\Application\\Application.csproj": {
+    "C:\\JamesWeight-Project1\\application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JamesWeight-project1\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\JamesWeight-Project1\\application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\JamesWeight-project1\\Application\\Application.csproj",
+        "projectPath": "C:\\JamesWeight-Project1\\application\\Application.csproj",
         "packagesPath": "C:\\Users\\jwi20\\.nuget\\packages\\",
-        "outputPath": "C:\\JamesWeight-project1\\Application\\obj\\",
+        "outputPath": "C:\\JamesWeight-Project1\\application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jwi20\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\JamesWeight-project1\\BrowserLaunch\\Browser.csproj": {
-                "projectPath": "C:\\JamesWeight-project1\\BrowserLaunch\\Browser.csproj"
+              "C:\\JamesWeight-Project1\\Browser\\Browser.csproj": {
+                "projectPath": "C:\\JamesWeight-Project1\\Browser\\Browser.csproj"
               },
-              "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj": {
-                "projectPath": "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj"
+              "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj": {
+                "projectPath": "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj"
               },
-              "C:\\JamesWeight-project1\\Menu\\Menu.csproj": {
-                "projectPath": "C:\\JamesWeight-project1\\Menu\\Menu.csproj"
+              "C:\\JamesWeight-Project1\\Menu\\Menu.csproj": {
+                "projectPath": "C:\\JamesWeight-Project1\\Menu\\Menu.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\JamesWeight-project1\\BrowserLaunch\\Browser.csproj": {
+    "C:\\JamesWeight-Project1\\Browser\\Browser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JamesWeight-project1\\BrowserLaunch\\Browser.csproj",
+        "projectUniqueName": "C:\\JamesWeight-Project1\\Browser\\Browser.csproj",
         "projectName": "Browser",
-        "projectPath": "C:\\JamesWeight-project1\\BrowserLaunch\\Browser.csproj",
+        "projectPath": "C:\\JamesWeight-Project1\\Browser\\Browser.csproj",
         "packagesPath": "C:\\Users\\jwi20\\.nuget\\packages\\",
-        "outputPath": "C:\\JamesWeight-project1\\BrowserLaunch\\obj\\",
+        "outputPath": "C:\\JamesWeight-Project1\\Browser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jwi20\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj": {
+    "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "C:\\JamesWeight-project1\\DataBase\\DataBase.csproj",
+        "projectPath": "C:\\JamesWeight-Project1\\DataBase\\DataBase.csproj",
         "packagesPath": "C:\\Users\\jwi20\\.nuget\\packages\\",
-        "outputPath": "C:\\JamesWeight-project1\\DataBase\\obj\\",
+        "outputPath": "C:\\JamesWeight-Project1\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jwi20\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -202,6 +202,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             },
             "microsoft.aspnetcore": {
               "target": "Package",
@@ -251,14 +255,14 @@
         }
       }
     },
-    "C:\\JamesWeight-project1\\Menu\\Menu.csproj": {
+    "C:\\JamesWeight-Project1\\Menu\\Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JamesWeight-project1\\Menu\\Menu.csproj",
+        "projectUniqueName": "C:\\JamesWeight-Project1\\Menu\\Menu.csproj",
         "projectName": "Menu",
-        "projectPath": "C:\\JamesWeight-project1\\Menu\\Menu.csproj",
+        "projectPath": "C:\\JamesWeight-Project1\\Menu\\Menu.csproj",
         "packagesPath": "C:\\Users\\jwi20\\.nuget\\packages\\",
-        "outputPath": "C:\\JamesWeight-project1\\Menu\\obj\\",
+        "outputPath": "C:\\JamesWeight-Project1\\Menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jwi20\\AppData\\Roaming\\NuGet\\NuGet.Config"

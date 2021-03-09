@@ -11,7 +11,7 @@ namespace Application
             Console.WriteLine("Application:");
 
             Process.Start(@"../Menu/bin/Debug/net5.0/Menu.exe");
-            Process.Start(@"../BrowserLaunch/bin/Debug/net5.0/Browser.exe");
+            Process.Start(@"../Browser/bin/Debug/net5.0/Browser.exe");
             Process.Start(@"../DataBase/bin/Debug/net5.0/DataBase.exe");
 
             Process.Start(@"c:/Program Files/Google/Chrome/Application/chrome.exe");

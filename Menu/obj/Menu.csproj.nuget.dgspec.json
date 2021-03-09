@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JamesWeight-project1\\Menu\\Menu.csproj": {}
+    "C:\\JamesWeight-Project1\\Menu\\Menu.csproj": {}
   },
   "projects": {
-    "C:\\JamesWeight-project1\\Menu\\Menu.csproj": {
+    "C:\\JamesWeight-Project1\\Menu\\Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JamesWeight-project1\\Menu\\Menu.csproj",
+        "projectUniqueName": "C:\\JamesWeight-Project1\\Menu\\Menu.csproj",
         "projectName": "Menu",
-        "projectPath": "C:\\JamesWeight-project1\\Menu\\Menu.csproj",
+        "projectPath": "C:\\JamesWeight-Project1\\Menu\\Menu.csproj",
         "packagesPath": "C:\\Users\\jwi20\\.nuget\\packages\\",
-        "outputPath": "C:\\JamesWeight-project1\\Menu\\obj\\",
+        "outputPath": "C:\\JamesWeight-Project1\\Menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jwi20\\AppData\\Roaming\\NuGet\\NuGet.Config"

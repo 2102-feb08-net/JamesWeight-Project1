@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K00m6LEyvJdYH76HDNy+or+4zbllDbWU9lcSI8fYWmKfwfG/JjgKDwmG1GSNXMa9InqGqD8J2SINj29QMgAKqA==",
+  "dgSpecHash": "Ug7vZqGM8roSyKoh2GU+abo8t0lNEB1q6aXQyvj6cCLQaLsLY8yLNCQF4iFTlk79zXfC2eyO4frqx+A/NOFOFg==",
   "success": true,
-  "projectFilePath": "C:\\JamesWeight-project1\\Menu\\Menu.csproj",
+  "projectFilePath": "C:\\JamesWeight-Project1\\Menu\\Menu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jwi20\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jwi20\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

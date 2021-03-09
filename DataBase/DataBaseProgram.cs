@@ -8,6 +8,8 @@ namespace DataBase
         {
             Console.WriteLine("DataBase:");
 
+            DBapp.Start _instantiate = new DBapp.Start();
+            _instantiate.Selection();
         }
     }
 }
