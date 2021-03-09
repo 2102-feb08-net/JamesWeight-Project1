@@ -31,7 +31,7 @@ namespace Browser.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-2, 5),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Summary = Summaries[rng.Next(Summaries.Length)] + "     =====     "
             })
             .ToArray();
         }
