@@ -76,6 +76,7 @@ C:\JamesWeight-Project1\DataBase\bin\Debug\net5.0\xunit.core.dll
 C:\JamesWeight-Project1\DataBase\bin\Debug\net5.0\xunit.execution.dotnet.dll
 C:\JamesWeight-Project1\DataBase\bin\Debug\net5.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
 C:\JamesWeight-Project1\DataBase\bin\Debug\net5.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+C:\JamesWeight-Project1\DataBase\obj\Debug\net5.0\DataBase.csprojAssemblyReference.cache
 C:\JamesWeight-Project1\DataBase\obj\Debug\net5.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
 C:\JamesWeight-Project1\DataBase\obj\Debug\net5.0\DataBase.AssemblyInfoInputs.cache
 C:\JamesWeight-Project1\DataBase\obj\Debug\net5.0\DataBase.AssemblyInfo.cs
