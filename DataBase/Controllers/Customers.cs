@@ -11,14 +11,13 @@ namespace CustomerLibrary
     internal class Routines : IInterface
     {
         internal int ID { get; set; }         // Primary Key
-
         internal long Phone { get; set; }     // 12 Digit Internation Code
         internal int HomeStore { get; set; }  // Integer
-
-        internal string Name { get; set; }    // VarChar(100)
+        internal string FirstName { get; set; }    // VarChar(100)
+        internal string LastName { get; set; }    // VarChar(100)
         internal string Address { get; set; } // VarChar(300)
         internal string eMail { get; set; }   // VarChar(100)
-
+        
         public void BusinessLogic(bool _display, string _readData, int _length, string[] _key, int _dataSet, string _query)
         {
             if (_display)
@@ -30,15 +29,17 @@ namespace CustomerLibrary
                 // for (int _index = 0; _index < _length; _index ++){ Console.WriteLine(_key[_index] + ": " + _readData[_index]); }
                 // set Domain Class Information
                 ID = Convert.ToInt32(_readData[0]);
-                Name = _readData[1].ToString();
-                Address = _readData[2].ToString();
-                Phone = Convert.ToInt64(_readData[3]);
-                eMail = _readData[4].ToString();
-                HomeStore = Convert.ToInt32(_readData[5]);
+                FirstName = _readData[1].ToString();
+                LastName = _readData[2].ToString();
+                Address = _readData[3].ToString();
+                Phone = Convert.ToInt64(_readData[4]);
+                eMail = _readData[5].ToString();
+                HomeStore = Convert.ToInt32(_readData[6]);
                 // Validation with Business Logic
                 if (ID < 0) ID = 0;
                 if (HomeStore < 0) HomeStore = 0;
-                if (Name == String.Empty) Name = "Enter Name";
+                if (FirstName == String.Empty) FirstName = "First";
+                if (LastName == String.Empty) LastName = "First";
                 if (Phone < 10000000000 ) Phone = 100000000000;
                 
             }

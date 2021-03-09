@@ -1,6 +1,6 @@
 <!DOCTYPE html><html>
 <head>
-  <title>MLiMa - Market Locations Inventory Management Application</title>
+  <title>(R)MLiMa - Market Locations Inventory Management Application</title>
   <style>
 		  form{ background-color: white; color: black; text-align: center; }
 			 p{ background-color: white; color: black; text-align: center; }
@@ -21,7 +21,23 @@
 	<p id = 'Store'><a href = "Store.html">Display all order history of a store location.</a></p>
 	<p id = 'History'><a href = "History.html">Display all order history of a customer.</a></p>
 	<hr size = "20" style = "background-color: black; color: black;"/>
-    <form>
+	<form>
+		<p>Last Name?<input name = "Last" type = "text" required/></p>
+		<p>First Name?<input name = "First" type = "text" required/></p>
+		
+		<hr size = "10" style = "background-color: black; color: black;"/>
+		
+		<p>Address?<input name = "Address" type = "text"/></p>
+		<p>eMail?<input name = "eMail" type = "text"/></p>
+		<p>Phone?<input name = "Phone" type = "text"/></p>
+		<p>Store#?<input name = "Store" type = "text" required minlength = "5" maxlength = "5"/></p>
+		<p>Buy One Widget<input name = "Widget" type = "checkbox"/></p>
+		<p>Buy One Apparatus<input name = "Apparatus" type = "checkbox"/></p>
+		<p>Buy One Gizmo<input name = "Gizmo" type = "checkbox"/></p>
+		
+		<hr size = "10" style = "background-color: black; color: black;"/>
+		
+		<button type = "button">Request Information</button>
 	</form>
 </body>
 </html>
