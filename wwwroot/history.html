@@ -16,6 +16,27 @@
 	if (_element){ if (_element.innerHTML.length != 5) alert("Customer # is 5 digits in length."); }
    }
    
+   function FetchCN(){
+fetch('localhost:5001/WeatherForecast')
+  .then( alert("Then");
+    function(response) { alert("ThenFunction");
+      if (response.status !== 200) { alert("!200");
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) { alert(data);
+        console.log(data);
+      });
+    }
+  )
+  .catch(function(err) { alert("Error");
+    console.log('Fetch Error :-S', err);
+  });
+   }
+   
    function ValidateSN(){
     var _element = document.getElementById('Store');
     if (_element){ if (_element.innerHTML.length != 5) alert("Store # is 5 digits in length."); }
@@ -65,7 +86,7 @@
 		
 		<hr size = "10" style = "background-color: black; color: black;"/>
 		
-		<button type = "button" onclick = "ValidateCN();">Request Information</button>
+		<button type = "button" onclick = "ValidateCN(); FetchCN();">Request Information</button>
 		
 		<hr size = "10" style = "background-color: black; color: black;"/>
 		
