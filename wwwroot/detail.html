@@ -10,7 +10,46 @@
 	   a:hover{ text-decoration: none; background-color: blue; color: white; text-align: center; }
  	  a:active{ text-decoration: none; background-color: white; color: black; text-align: center; }
  </style>
-  <script>
+ <script>
+   function ValidateCN(){
+    var _element = document.getElementById('Customer');
+	if (_element){ if (_element.innerHTML.length != 5) alert("Customer # is 5 digits in length."); }
+   }
+   
+   function ValidateSN(){
+    var _element = document.getElementById('Store');
+    if (_element){ if (_element.innerHTML.length != 5) alert("Store # is 5 digits in length."); }
+   }
+   
+   function ValidateON(){
+    var _element = document.getElementById('Order');
+    if (_element){ if (_element.innerHTML.length != 5) alert("Order # is 5 digits in length."); }
+   }
+   
+   function ValidateLN(){
+    var _element = document.getElementById('Last');
+    if (_element){ if (_element.innerHTML.length <= 0) alert("Last Name can not be blank."); }
+   }
+   
+   function ValidateFN(){
+    var _element = document.getElementById('First');
+    if (_element){ if (_element.innerHTML.length <= 0) alert("First Name can not be blank."); }
+   }
+   
+   function ValidateAD(){
+    var _element = document.getElementById('Address');
+    if (_element){ if (_element.innerHTML.length <= 0) alert("Address can not be blank."); }
+   }
+   
+   function ValidateEM(){
+    var _element = document.getElementById('eMail');
+    if (_element){ if (_element.innerHTML.length <= 0) alert("Email can not be blank."); }
+   }
+   
+   function ValidatePH(){
+    var _element = document.getElementById('Phone');
+    if (_element){ if (_element.innerHTML.length <= 0) alert("Phone Number can not be blank."); }
+   }
   </script>
 </head>
 <body>
@@ -22,11 +61,15 @@
 	<p id = 'History'><a href = "History.html">Display all order history of a customer.</a></p>
 	<hr size = "20" style = "background-color: black; color: black;"/>
 	<form>
-		<p>Order#?<input name = "Order" type = "text" required minlength = "5" maxlength = "5"/></p>
+		<p>Order#?<input id = "Order" name = "Order" type = "text" required minlength = "5" maxlength = "5"/></p>
 		
 		<hr size = "10" style = "background-color: black; color: black;"/>
 		
-		<button type = "button">Request Information</button>
+		<button type = "button" onclick = "ValidateON();">Request Information</button>
+		
+		<hr size = "10" style = "background-color: black; color: black;"/>
+		
+		<p id = 'Response' name = "Response" style = "border: 10px groove blue; text-align: left; font-weight: 900;">Responses from Server are Displayed Here...</p>
 	</form>
 </body>
 </html>
