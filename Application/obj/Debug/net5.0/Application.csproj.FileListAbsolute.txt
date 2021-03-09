@@ -65,8 +65,6 @@ C:\JamesWeight-Project1\Application\obj\Debug\net5.0\Application.genruntimeconfi
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Browser.deps.json
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Browser.runtimeconfig.json
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Browser.runtimeconfig.dev.json
-C:\JamesWeight-Project1\Application\bin\Debug\net5.0\appsettings.Development.json
-C:\JamesWeight-Project1\Application\bin\Debug\net5.0\appsettings.json
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Browser.exe
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\JamesWeight-Project1\Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
